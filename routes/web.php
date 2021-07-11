@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('api/v1/book', 'BookController@create');
+Route::get('api/v1/book/', 'BookController@index');

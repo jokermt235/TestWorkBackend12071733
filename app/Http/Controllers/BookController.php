@@ -15,6 +15,7 @@ class BookController extends Controller
     }
 
     public function index(Request $request){
+        return $this->_book->Get($request->pattern);
     }
 
     public function view(){
