@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Optional\Accounts\Services;
+namespace App\Optional\Books\Services;
 
 trait Create
 {

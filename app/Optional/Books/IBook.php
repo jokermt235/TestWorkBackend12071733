@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Optional\Accounts;
+namespace App\Optional\Books;
 
 interface IBook{
     public function Create();

@@ -3,8 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Optional\Accounts\IBook;
-use App\Optional\Accounts\Book;
+use App\Optional\Books\IBook;
+use App\Optional\Books\Book;
 
 class AppServiceProvider extends ServiceProvider
 {
